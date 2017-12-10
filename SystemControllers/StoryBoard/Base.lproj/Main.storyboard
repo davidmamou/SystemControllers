@@ -30,18 +30,30 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZA-xg-Lg6">
                                         <rect key="frame" x="0.0" y="0.0" width="84" height="30"/>
                                         <state key="normal" title="Share"/>
+                                        <connections>
+                                            <action selector="shareButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QGY-mA-udf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5T-cS-bxu">
                                         <rect key="frame" x="97" y="0.0" width="84" height="30"/>
                                         <state key="normal" title="Photo"/>
+                                        <connections>
+                                            <action selector="photoButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8nA-SQ-ds7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufb-Of-9eq">
                                         <rect key="frame" x="194" y="0.0" width="84" height="30"/>
                                         <state key="normal" title="Safari"/>
+                                        <connections>
+                                            <action selector="safariButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7tC-ek-nQb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8b-AQ-AKh">
                                         <rect key="frame" x="291" y="0.0" width="84" height="30"/>
                                         <state key="normal" title="Email"/>
+                                        <connections>
+                                            <action selector="emailButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Lo-3R-1YT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
